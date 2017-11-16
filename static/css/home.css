@@ -3,11 +3,17 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
+.text-center {
+  text-align: center;
+}
+
+header {
+  height: 76px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -18,7 +24,7 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 7rem;
   z-index: 10;
 }
 
@@ -66,7 +72,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0;
 }
 
 /* Thin out the marketing headings */
@@ -75,7 +81,6 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -89,22 +94,12 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 36px;
   }
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.25;
-    background: #000;
 }

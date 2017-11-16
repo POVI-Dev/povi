@@ -25,6 +25,7 @@
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
+            <!--TODO: link-->
             <li class="nav-item">
               <a class="nav-link" href="javascript:alert('준비중');">포비13기</a>
             </li>
@@ -44,25 +45,41 @@
         <ol class="carousel-indicators">
           <li data-target="#poviCover" data-slide-to="0" class="active"></li>
           <li data-target="#poviCover" data-slide-to="1"></li>
+          <li data-target="#poviCover" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
+          <!--TODO: 1st item move to js -->
           <div class="carousel-item active">
-            <img class="first-slide" src="static/img/cover2.jpg" alt="Second slide">
+            <img src="static/img/cover1.jpg" alt="slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>POSTECH Venture Internship</h1>
-                <p>POVI는 포스텍 네트워크를 활용한 인턴십으로 <br>포스테키안의 성장을 돕습니다.</p>
-                <p><a class="btn btn-lg btn-outline-light" href="javascript:alert('준비중');" role="button">그 특별한 인턴십을 경험해 보세요.</a></p>
+                <h1>13기 모집 중</h1>
+                <p>2017년 11월 13일(월) ~ 11월 23일(목)</p>
+                <p>
+                  <a class="btn btn-lg btn-outline-light" target="_black" role="button" 
+                    href="https://www.facebook.com/povision/photos/a.657726207678833.1073741827.657720027679451/1458358304282282/?type=3&permPage=1">
+                    지원하기</a>
+                </p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="first-slide" src="static/img/cover1.jpg" alt="First slide">
+            <img src="static/img/cover2.jpg" alt="slide">
             <div class="overlay"></div>
             <div class="container">
               <div class="carousel-caption">
                 <h1>인생은 POVI 전과 후로 나뉜다.</h1>
                 <p>POVI 인턴십은 가치 있는 경험을 제공하며,<br>진로와 적성에 대한 고민의 계기를 마련합니다.</p>
+                <p><a class="btn btn-lg btn-outline-light" href="javascript:alert('준비중');" role="button">그 특별한 인턴십을 경험해 보세요.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="static/img/cover3.jpg" alt="slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>POSTECH Venture Internship</h1>
+                <p>POVI는 포스텍 네트워크를 활용한 인턴십으로 <br>포스테키안의 성장을 돕습니다.</p>
                 <p><a class="btn btn-lg btn-outline-light" href="javascript:alert('준비중');" role="button">그 특별한 인턴십을 경험해 보세요.</a></p>
               </div>
             </div>
@@ -78,10 +95,35 @@
         </a>
       </div>
 
+      <div class="container about-povi">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              포스텍​ ​벤처​ ​인턴십​ ​프로그램
+              <br>
+              <span class="text-muted">POSTECH Venture Internship program</span>
+            </h2>
+            <p class="lead">
+              포비는 2012년에 포스텍 동문 기업과 포스텍 학생들을 대상으로 시작한 인턴십 프로그램입니다.
+              학교가 포항에 있어서 상대적으로 사회 경험을 하기 힘든 포스텍 학생들이 동문기업에서 경험을 쌓고 성장하는 기회를 갖도록 돕고 있습니다.
+              방학 중에만 인턴을 ​하는 2개월 ​인턴*과 ​방학부터 ​반 ​년 ​동안 ​인턴을 ​하는 6개월 ​인턴이 ​있습니다.<br/>
+              *학사일정이 변경되어 2개월이 불가능하여 겨울방학때는 4개월 인턴으로 변경되었습니다.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="static/img/about-povi.jpg" alt="about povi">
+          </div>
+        </div>
+      </div><!-- /about-povi -->
 
-      <div class="container marketing povi-member">
+      <hr class="featurette-divider">
+
+      <div class="container povi-member">
+        <h2 class="featurette-heading text-center"><span class="text-muted">포비 구성</span></h2>
+        <br>
         <div class="row">
           <div class="col-lg-4">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/member-company.jpg">
             <h2><i class="material-icons header-img">work</i> 선발​ ​기업</h2>
             <p>
               포스텍 출신 기업가 선배님들의 모임인 지곡클럽,
@@ -91,6 +133,7 @@
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
           </div>
           <div class="col-lg-4">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/member-manager.jpg">
             <h2><i class="material-icons header-img">group</i> 포비​ ​매니저</h2>
             <p>
               포비 매니저(이하 매니저)는 포비 프로그램을 운영하고, 성장시키는 역할을 합니다.
@@ -99,6 +142,7 @@
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
           </div>
           <div class="col-lg-4">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/member-povi.jpg">
             <h2><i class="material-icons header-img">school</i> 포비​ ​인턴</h2>
             <p>
               포스텍 재, 휴학생으로 포비 선발 기업에서 인턴을 수행합니다.
@@ -108,53 +152,141 @@
             <!--<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
           </div>
         </div>
+      </div><!-- /povi-member -->
 
-        <!--<hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
+      <div class="container feature-povi">
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">포비​ ​특징</h2>
+            <p class="lead">
+              포비는 학교나 기업이 아닌 학생이 중심이 되어 운영하고 있는 프로그램입니다.
+              학생들과 운영하는 매니저 사이가 각별하며, 인턴들 모두가 포비라는 프로그램에 자부심을 갖고 인턴십을 수행해 나갑니다.
+              매니저들은 인턴들의 첫 사회생활 멘토 역할을 충실히 수행하고 있으며,
+              인턴들이 사회 생활에서 처음 겪는 여러 문제들에 대해 같이 고민하며 해결해주려 ​노력합니다.
+            </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto" src="static/img/feature-povi.jpg" alt="feature povi">
           </div>
         </div>
+      </div><!-- /feature-povi -->
 
-        <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <div class="container about-event">
+        <h2 class="featurette-heading text-center"><span class="text-muted">포비​ ​문화,​ ​프로그램</span></h2>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/event-poviot.jpg">
+            <h2>포비​ ​발대식</h2>
+            <p>
+              포비 ​인턴 ​시작 ​전에 포비 ​인턴과 ​매니저, ​기업 ​관계자가 ​모여 ​진행하는 ​행사입니다. 함께 활동할 인턴들끼리 서로를 알아가는 시간을 가지고,<br>
+              선배와의 대화, 직전 기수 수료식, 인턴을 하기 전에 알아두면 좋을 것들<br>
+              등의 프로그램을 ​진행합니다.
+            </p>
+            <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <div class="col-lg-6 text-center">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/event-poviday.jpg">
+            <h2>포비​ ​데이</h2>
+            <p>
+              다른회사에서 근무하는 포비들이 모여 경험을 공유하는 시간입니다.<br>
+              의견을 수렴하여 다같이 회사탐방, 선배와의 대화, 문화생활 등<br>
+              프로그램을 월 1~2회 진행합니다.<br>
+            </p>
+            <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
+          </div>
+          <div class="col-lg-6 text-center">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/event-povision.jpg">
+            <h2>POVISION(포비전​ ​워크샵)</h2>
+            <p>
+              2개월 인턴의 수료식과 함께 포비 매니저, 포비 기업 관계자들이 모두 모이는 네트워크 행사입니다.
+              2개월의 인턴 생활을 돌아보며 포비 프로그램에 대한 피드백을 하고,
+              인턴십 프로그램의 ​성과발표를 ​진행합니다.
+            </p>
+            <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
+          </div>
+          <div class="col-lg-6 text-center">
+            <img class="rounded-circle" alt="Generic placeholder image" width="140" height="140" src="static/img/event-podack.jpg">
+            <h2>포닥거리</h2>
+            <p>
+              2012년 포비가 시작한 뒤 수료 인턴이 100명이 넘으면서<br>
+              처음 열렸던 홈커밍 행사입니다. 기존 기수, 이전기수, 참여 회사 관계자들이 오랜만에 한자리에 모이는 자리입니다.<br>
+              그동안 겪어온 과정과 앞으로의 성장 방향 등에 대해 여러 기수와 선배,<br>
+              기업관계자들에게 ​의견을 ​듣고 ​발표하는 ​시간을 ​가집니다.
+            </p>
+            <!--<p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>-->
           </div>
         </div>
+      </div><!-- /about-event -->
 
-        <hr class="featurette-divider">-->
+      <hr class="featurette-divider">
 
-      </div><!-- /.container -->
+      <!--TODO: move to js-->
+      <div class="container povi-history">
+        <h2 class="featurette-heading text-center"><span class="text-muted">역대 포비</span></h2>
+        <br>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">POVI</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">8기</th>
+              <td>남현우 김두연 배유로 이예림 유태승 맹휘영 박준성 김예진 박동민</td>
+            </tr>
+            <tr>
+              <th scope="row">7기</th>
+              <td>이상민 조재룡 김진광 김상순 김홍기 류지현 방병윤 황성민 이아름 김기윤 권영은</td>
+            </tr>
+            <tr>
+              <th scope="row">6기</th>
+              <td>오누리 박경훈 안현진 방인혜 윤지성 이재엽 김서아 이중기 변한섭 김범준 김수빈</td>
+            </tr>
+            <tr>
+              <th scope="row">5기</th>
+              <td>박수재 전교식 김승재 양성진 김호겸 위민수 박원표 백현우 박정남 배현경 최재흥 육솔 정다운 이태헌 이단비 김도형 정재영 부혜은 고영주 류태천</td>
+            </tr>
+            <tr>
+              <th scope="row">4기</th>
+              <td>조민우 윤태석 이민석 이다진 김세종 김병준 이서영 이기훈 이해진 권상혁 김동철 김륜호 전석민</td>
+            </tr>
+            <tr>
+              <th scope="row">3기</th>
+              <td>박준영 박현준 권창일 노향정 김희진 김우현 윤호준 우정환 박기은 지상우 이근원 박익종 이승훈 강하림 부혜은 박형민 박재혁 이재황</td>
+            </tr>
+            <tr>
+              <th scope="row">2기</th>
+              <td>임희은 서경덕 류근열 유준상 조현정 박새한 정진기 이준영 최태근 권일향</td>
+            </tr>
+            <tr>
+              <th scope="row">1기</th>
+              <td>진성관 김창회 유준선 노시현 김정우 손준혁 김경진 박배권 박용진 박재현 이창호 정동영</td>
+            </tr>
+          </tbody>
+        </table>
+      </div><!-- /povi-history -->
+
+      <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 POVI &middot;
+        <p>
+          &copy; 2017 POVI
+          &middot;
           <a href="http://povision.tistory.com/" target="_blank">Tistory</a>
-          &middot; <a href="http://www.facebook.com/povision/" target="_blank">Facebook</a></p>
+          &middot; 
+          <a href="http://www.facebook.com/povision/" target="_blank">Facebook</a>
+          &middot;
+          powered by Heung
+        </p>
       </footer>
 
     </main>
